@@ -9,3 +9,8 @@ Android Test Code Snippets
 #### 1.Code Coverage
 
 - EmmaCodeCoverage
+
+#### 2.Performance
+
+- LaunchPerformance
+

@@ -3,6 +3,9 @@
 EmmaCodeCoverage/EmmaDemo/bin
 EmmaCodeCoverage/EmmaDemoTest/bin
 
+LaunchPerformance/TemperatureConverter/bin
+LaunchPerformance/TemperatureConverterTest/bin
+
 *.class
 
 # Mobile Tools for Java (J2ME)

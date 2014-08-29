@@ -1,0 +1,20 @@
+[EMMA v2.0.5312 report, generated Fri Aug 29 10:01:31 CST 2014]
+-------------------------------------------------------------------------------
+OVERALL COVERAGE SUMMARY:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+100% (2/2)	88%  (7/8)	82%  (55/67)	75%  (12/16)!	all classes
+
+OVERALL STATS SUMMARY:
+
+total packages:	1
+total classes:	2
+total methods:	8
+total executable files:	1
+total executable lines:	16
+
+COVERAGE BREAKDOWN BY PACKAGE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+100% (2/2)	88%  (7/8)	82%  (55/67)	75%  (12/16)!	com.example.emmademo
+-------------------------------------------------------------------------------

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Aug 29 10:01:31 CST 2014 -->
+
+<report>
+  <stats>
+    <packages value="1"/>
+    <classes value="2"/>
+    <methods value="8"/>
+    <srcfiles value="1"/>
+    <srclines value="16"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="100% (2/2)"/>
+      <coverage type="method, %" value="88%  (7/8)"/>
+      <coverage type="block, %" value="82%  (55/67)"/>
+      <coverage type="line, %" value="75%  (12/16)"/>
+
+      <package name="com.example.emmademo">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="88%  (7/8)"/>
+        <coverage type="block, %" value="82%  (55/67)"/>
+        <coverage type="line, %" value="75%  (12/16)"/>
+
+        <srcfile name="MainActivity.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="88%  (7/8)"/>
+          <coverage type="block, %" value="82%  (55/67)"/>
+          <coverage type="line, %" value="75%  (12/16)"/>
+
+          <class name="MainActivity">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="83%  (5/6)"/>
+            <coverage type="block, %" value="78%  (43/55)"/>
+            <coverage type="line, %" value="71%  (10/14)"/>
+
+            <method name="onOptionsItemSelected (MenuItem): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="MainActivity (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="access$000 (MainActivity): TextView">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="add (int, int): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="onCreate (Bundle): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (26/26)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="onCreateOptionsMenu (Menu): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="MainActivity$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (12/12)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="MainActivity$1 (MainActivity): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="onClick (View): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

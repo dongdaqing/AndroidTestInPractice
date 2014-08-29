@@ -1,0 +1,312 @@
+Buildfile: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at /Users/dongdaqing/Documents/AndroidDevEnv/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MainActivityTest
+  [gettype] Project Type: Test Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin
+   [delete] Deleting directory /Users/dongdaqing/Documents/workspace/EmmaDemoTest/gen
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at /Users/dongdaqing/Documents/AndroidDevEnv/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MainActivity
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/dongdaqing/Documents/workspace/EmmaDemo/bin
+   [delete] Deleting directory /Users/dongdaqing/Documents/workspace/EmmaDemo/gen
+[getlibpath] Library dependencies:
+[getlibpath] No Libraries
+   [subant] No sub-builds to iterate on
+[getlibpath] Library dependencies:
+[getlibpath] No Libraries
+   [subant] No sub-builds to iterate on
+
+emma:
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at /Users/dongdaqing/Documents/AndroidDevEnv/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MainActivityTest
+  [gettype] Project Type: Test Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for MainActivityTest...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/res
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/rsObj
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/rsLibs
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/gen
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/classes
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for MainActivityTest...
+[dependency] Ordered libraries:
+[dependency] 
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'debug'...
+   [subant] No sub-builds to iterate on
+     [echo] ----------
+     [echo] Building tested project at /Users/dongdaqing/Documents/workspace/EmmaDemo with 'instrument'...
+
+-set-mode-check:
+
+-set-instrumented-mode:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at /Users/dongdaqing/Documents/AndroidDevEnv/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MainActivity
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for MainActivity...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/res
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/rsObj
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/rsLibs
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemo/gen
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/classes
+    [mkdir] Created dir: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for MainActivity...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'instrument'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 3 source files to /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/classes
+     [echo] Instrumenting classes from /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/classes...
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/classes
+      [dex] input: /Users/dongdaqing/Documents/workspace/EmmaDemo/libs/android-support-v4.jar
+      [dex] input: /Users/dongdaqing/Documents/AndroidDevEnv/android-sdk-macosx/tools/lib/emma_device.jar
+      [dex] Pre-Dexing /Users/dongdaqing/Documents/workspace/EmmaDemo/libs/android-support-v4.jar -> android-support-v4-52f7d53f9ea59fac3fcc03d1d1fb5fc7.jar
+      [dex] Pre-Dexing /Users/dongdaqing/Documents/AndroidDevEnv/android-sdk-macosx/tools/lib/emma_device.jar -> emma_device-51dfe91cd330c52dbd772fe45c3b440a.jar
+      [dex] Converting compiled files and external libraries into /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/classes.dex...
+       [dx] Merged dex A (12 defs/5.4KiB) with dex B (520 defs/516.0KiB). Result is 532 defs/627.4KiB. Took 0.3s
+       [dx] Merged dex A (532 defs/627.4KiB) with dex B (297 defs/326.8KiB). Result is 829 defs/1189.2KiB. Took 0.3s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /Users/dongdaqing/Documents/workspace/EmmaDemo/res
+   [crunch] To destination dir: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/res
+   [crunch] Processing image to cache: /Users/dongdaqing/Documents/workspace/EmmaDemo/res/drawable-hdpi/ic_launcher.png => /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/res/drawable-hdpi/ic_launcher.png
+   [crunch]   (processed image to cache entry /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/res/drawable-hdpi/ic_launcher.png: 53% size of source)
+   [crunch] Processing image to cache: /Users/dongdaqing/Documents/workspace/EmmaDemo/res/drawable-mdpi/ic_launcher.png => /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/res/drawable-mdpi/ic_launcher.png
+   [crunch]   (processed image to cache entry /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/res/drawable-mdpi/ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: /Users/dongdaqing/Documents/workspace/EmmaDemo/res/drawable-xhdpi/ic_launcher.png => /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/res/drawable-xhdpi/ic_launcher.png
+   [crunch]   (processed image to cache entry /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/res/drawable-xhdpi/ic_launcher.png: 65% size of source)
+   [crunch] Processing image to cache: /Users/dongdaqing/Documents/workspace/EmmaDemo/res/drawable-xxhdpi/ic_launcher.png => /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/res/drawable-xxhdpi/ic_launcher.png
+   [crunch]   (processed image to cache entry /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/res/drawable-xxhdpi/ic_launcher.png: 66% size of source)
+   [crunch] Crunched 4 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating MainActivity-instrumented-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/MainActivity-instrumented.apk
+[propertyfile] Creating new property file: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/build.prop
+[propertyfile] Updating property file: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/build.prop
+[propertyfile] Updating property file: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/build.prop
+[propertyfile] Updating property file: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/build.prop
+
+instrument:
+ [zipalign] Run cancelled: no changes to input file /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/MainActivity-instrumented-unaligned.apk
+     [echo] Instrumented Package: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/MainActivity-instrumented.apk
+[propertyfile] Updating property file: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/build.prop
+[propertyfile] Updating property file: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/build.prop
+[propertyfile] Updating property file: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/build.prop
+[propertyfile] Updating property file: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/build.prop
+[testedprojectclasspath] Resolved classpath:
+[testedprojectclasspath] /Users/dongdaqing/Documents/workspace/EmmaDemo/libs/android-support-v4.jar
+[testedprojectclasspath] /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/classes
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 3 source files to /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/classes
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/classes
+      [dex] Converting compiled files and external libraries into /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/classes.dex...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/res
+   [crunch] To destination dir: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/res
+   [crunch] Processing image to cache: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/res/drawable-hdpi/ic_launcher.png => /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/res/drawable-hdpi/ic_launcher.png
+   [crunch]   (processed image to cache entry /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/res/drawable-hdpi/ic_launcher.png: 87% size of source)
+   [crunch] Processing image to cache: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/res/drawable-ldpi/ic_launcher.png => /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/res/drawable-ldpi/ic_launcher.png
+   [crunch]   (processed image to cache entry /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/res/drawable-ldpi/ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/res/drawable-mdpi/ic_launcher.png => /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/res/drawable-mdpi/ic_launcher.png
+   [crunch]   (processed image to cache entry /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/res/drawable-mdpi/ic_launcher.png: 78% size of source)
+   [crunch] Processing image to cache: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/res/drawable-xhdpi/ic_launcher.png => /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/res/drawable-xhdpi/ic_launcher.png
+   [crunch]   (processed image to cache entry /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/res/drawable-xhdpi/ic_launcher.png: 85% size of source)
+   [crunch] Crunched 4 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating MainActivityTest-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/MainActivityTest-debug.apk
+[propertyfile] Creating new property file: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/build.prop
+[propertyfile] Updating property file: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/build.prop
+[propertyfile] Updating property file: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/build.prop
+[propertyfile] Updating property file: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/build.prop
+
+-post-build:
+
+debug:
+
+install:
+     [echo] Installing /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/MainActivityTest-debug.apk onto default emulator or device...
+     [exec] 2297 KB/s (37283 bytes in 0.015s)
+     [exec] 	pkg: /data/local/tmp/MainActivityTest-debug.apk
+     [exec] Success
+
+-set-mode-check:
+
+-set-instrumented-mode:
+
+install:
+     [echo] Installing /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/MainActivity-instrumented.apk onto default emulator or device...
+     [exec] 3010 KB/s (412326 bytes in 0.133s)
+     [exec] 	pkg: /data/local/tmp/MainActivity-instrumented.apk
+     [exec] Success
+
+installi:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at /Users/dongdaqing/Documents/AndroidDevEnv/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MainActivityTest
+  [gettype] Project Type: Test Application
+
+-test-project-check:
+
+test:
+[getlibpath] Library dependencies:
+[getlibpath] No Libraries
+     [echo] Running tests...
+     [echo] Running tests ...
+     [exec] 
+     [exec] com.example.emmademo.test.MainActivityTest:..
+     [exec] Test results for InstrumentationTestRunner=..
+     [exec] Time: 5.214
+     [exec] 
+     [exec] OK (2 tests)
+     [exec] 
+     [exec] 
+     [exec] Generated code coverage data to /data/data/com.example.emmademo/coverage.ec
+     [echo] Setting permission to download the coverage file...
+     [echo] Downloading coverage file into project directory...
+     [exec] 38 KB/s (185 bytes in 0.004s)
+     [echo] Extracting coverage report...
+     [echo] Cleaning up temporary files...
+   [delete] Deleting: /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin/coverage.ec
+   [delete] Deleting: /Users/dongdaqing/Documents/workspace/EmmaDemo/bin/coverage.em
+     [echo] Saving the coverage reports in /Users/dongdaqing/Documents/workspace/EmmaDemoTest/bin
+
+BUILD SUCCESSFUL
+Total time: 38 seconds

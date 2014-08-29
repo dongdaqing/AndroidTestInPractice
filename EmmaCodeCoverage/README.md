@@ -2,7 +2,7 @@ EmmaDemo
 =====================
 
 ## Overview
-Android Code Coverage Test Based on Emma
+Android Code Coverage Test Demo Based on Emma
 
 ## Execution Steps
 

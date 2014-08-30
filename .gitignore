@@ -6,6 +6,9 @@ EmmaCodeCoverage/EmmaDemoTest/bin
 LaunchPerformance/TemperatureConverter/bin
 LaunchPerformance/TemperatureConverterTest/bin
 
+AndroidTestingFun/Lesson2/bin
+AndroidTestingFun/Lesson2Test/bin
+
 *.class
 
 # Mobile Tools for Java (J2ME)

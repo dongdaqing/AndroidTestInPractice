@@ -8,6 +8,9 @@ LaunchPerformance/TemperatureConverterTest/bin
 
 AndroidTestingFun/Lesson2/bin
 AndroidTestingFun/Lesson2Test/bin
+AndroidTestingFun/Lesson5/bin
+AndroidTestingFun/Lesson5Test/bin
+
 
 *.class
 

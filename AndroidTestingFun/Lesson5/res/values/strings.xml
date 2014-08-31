@@ -7,5 +7,6 @@
     <string name="message_input_hint_edit_text">Enter a message</string>
     <string name="label_send_message">Send</string>
     <string name="receiver_activity">Receiver Activity</string>
+    <string name="receiver_text_view">received_text_view</string>
 
 </resources>

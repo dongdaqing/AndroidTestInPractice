@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message"
+        android:layout_marginBottom="6px" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/celsius"
+        android:id="@+id/celsius_label" 
+        android:textSize="@dimen/label_text_size"
+        android:layout_marginLeft="@dimen/margin" />
+    <com.example.aatg.tc.EditNumber
+        android:layout_height="wrap_content"
+        android:id="@+id/celsius"
+        android:layout_width="match_parent"
+        android:gravity="right|center_vertical"
+        android:text=""
+        android:layout_margin="@dimen/margin" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fahrenheit"
+        android:id="@+id/fahrenheit_label"
+        android:textSize="@dimen/label_text_size" 
+        android:layout_marginLeft="@dimen/margin" />
+    <com.example.aatg.tc.EditNumber
+        android:layout_height="wrap_content"
+        android:id="@+id/fahrenheit"
+        android:layout_width="match_parent"
+        android:gravity="right|center_vertical"
+        android:text=""
+        android:layout_margin="@dimen/margin" />
+</LinearLayout>

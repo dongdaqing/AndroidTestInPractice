@@ -22,6 +22,8 @@ Robotium/Youku_MobileTest/bin
 UnitTest/DatabaseTest/DatabaseDemo1/bin
 UnitTest/DatabaseTest/DatabaseDemo1Test/bin
 
+Mock/MockitoDemo/bin
+
 *.class
 
 # Mobile Tools for Java (J2ME)

@@ -2,6 +2,10 @@ package com.ddq.demo;
 
 import java.util.List;
 
+/**
+* Model class for the book details.
+*/
+
 public class Book {
 	
 	private String isbn;
